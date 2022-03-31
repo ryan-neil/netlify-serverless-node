@@ -1,6 +1,7 @@
 [build]
 	publish = "client"
 	functions = "functions"
+	command = "echo 'default context'"
 
 [dev]
 	publish = "client"

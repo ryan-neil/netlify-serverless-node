@@ -1,6 +1,8 @@
 # Netlify Serverless Functions Example App
 
-Inspiration for this mini app came from [Phil Hawksworth](https://www.netlify.com/blog/authors/phil-hawksworth/) of Netlify.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4d7ff488-acb8-498f-ae6b-d3e4045d824a/deploy-status)](https://app.netlify.com/sites/ntl-serverless-example/deploys)
+
+Inspiration for this mini app came from [Phil Hawksworth's](https://www.netlify.com/blog/authors/phil-hawksworth/).
 
 ### Resources:
 
@@ -8,6 +10,9 @@ Inspiration for this mini app came from [Phil Hawksworth](https://www.netlify.co
 - [How to test serverless functions locally](https://www.netlify.com/blog/2021/12/12/how-to-test-serverless-functions-locally/): Netlify
 - [Netlify Site Example](https://example-hello-world-function.netlify.app/): Netlify
   - [Github Repo](https://github.com/netlify/example-hello-world-functions): Netlify
+- [A Step-by-Step Guide: Deploying on Netlify](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/): Netlify
+- [File-based configuration](https://docs.netlify.com/configure-builds/file-based-configuration/): Netlify Docs
+- [Build configuration overview](https://docs.netlify.com/configure-builds/overview/): Netlify Docs
 
 ### Testing locally
 
@@ -26,3 +31,5 @@ netlify dev
 ```
 
 _Netlify Dev_ will detect the serverless functions in your project, and automatically serve them for you in a local development server so that they behave just the same as when they are deployed to Netlify.
+
+Checkout the [live example](https://ntl-serverless-example.netlify.app/) site!
