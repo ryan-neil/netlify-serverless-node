@@ -1,0 +1,13 @@
+[build]
+	publish = "client"
+	functions = "functions"
+
+[dev]
+	publish = "client"
+	functions = "functions"
+	functionsPort = 9002
+
+[[redirects]]
+	from = "/*"
+	to = "/.netlify/functions/api/:splat"
+	status = 200
