@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const serverless = require('serverless-http');
-const usersRoute = require('../routes/usersRoute');
+const usersRoute = require('../server/routes/usersRoute');
 
 const app = express();
 app.use(cors());

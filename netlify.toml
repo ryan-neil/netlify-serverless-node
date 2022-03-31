@@ -7,7 +7,7 @@
 [dev]
 	publish = "client"
 	functions = "functions"
-	functionsPort = 9002
+	# functionsPort = 9002
 	node_bundler = "esbuild"
 
 [[redirects]]
