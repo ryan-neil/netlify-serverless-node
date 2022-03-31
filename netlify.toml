@@ -2,11 +2,13 @@
 	publish = "client"
 	functions = "functions"
 	command = "echo 'default context'"
+	node_bundler = "esbuild"
 
 [dev]
 	publish = "client"
 	functions = "functions"
 	functionsPort = 9002
+	node_bundler = "esbuild"
 
 [[redirects]]
 	from = "/*"

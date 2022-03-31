@@ -6,7 +6,7 @@ Inspiration for this mini app came from [Phil Hawksworth's](https://www.netlify.
 
 ### Resources:
 
-- [Serverless functions made simple - Just add files](https://www.netlify.com/blog/2021/12/11/serverless-functions-made-simple-just-add-files/)
+- [Serverless functions made simple - Just add files](https://www.netlify.com/blog/2021/12/11/serverless-functions-made-simple-just-add-files/): Netlify
 - [How to test serverless functions locally](https://www.netlify.com/blog/2021/12/12/how-to-test-serverless-functions-locally/): Netlify
 - [Netlify Site Example](https://example-hello-world-function.netlify.app/): Netlify
   - [Github Repo](https://github.com/netlify/example-hello-world-functions): Netlify
@@ -31,5 +31,7 @@ netlify dev
 ```
 
 _Netlify Dev_ will detect the serverless functions in your project, and automatically serve them for you in a local development server so that they behave just the same as when they are deployed to Netlify.
+
+<h1></h1>
 
 Checkout the [live example](https://ntl-serverless-example.netlify.app/) site!

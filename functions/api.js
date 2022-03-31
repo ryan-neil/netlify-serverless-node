@@ -1,43 +1,14 @@
 const express = require('express');
+const cors = require('cors');
 const serverless = require('serverless-http');
+const usersRoute = require('../routes/usersRoute');
 
 const app = express();
-const router = express.Router();
-
-// api mock data
-const users = [
-  {
-    id: 1,
-    name: 'Katie',
-    email: 'katie@gmail.com',
-  },
-  {
-    id: 2,
-    name: 'Ryan',
-    email: 'ryan@gmail.com',
-  },
-  {
-    id: 3,
-    name: 'John',
-    email: 'john@gmail.com',
-  },
-];
-
-// serve routes
-router.get('/', (req, res) => {
-  return res.json({
-    path: 'Home',
-    message: 'Serverless backend Home route',
-  });
-});
-
-router.get('/users', (req, res) => {
-  return res.json(users);
-});
+app.use(cors());
 
 // utilize netlify serverless functions
-app.use('/.netlify/functions/api', router);
+app.use('/.netlify/functions/api', usersRoute);
 // utilize netlify redirects
-app.use('/api', router);
+app.use('/api', usersRoute);
 
 module.exports.handler = serverless(app);
