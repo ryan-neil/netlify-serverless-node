@@ -1,9 +1,9 @@
 :root {
   --primary-text-color: #c6c9ca;
   --secondary-text-color: #ffffff;
-  --primary-page-color: #09171d;
-  --accent-color: #5cebdf;
-  --accent-color-alternate: #4361ee;
+  --primary-page-color: #181818;
+  --accent-color: #1db954;
+  --accent-color-alternate: #009fff;
 }
 
 html,
@@ -50,7 +50,7 @@ h3 {
 }
 code,
 pre {
-  background-color: #163846;
+  background-color: hsl(0, 0%, 25%);
   padding: 0.2em;
   border-radius: 0.3rem;
   color: var(--secondary-text-color);

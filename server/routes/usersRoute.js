@@ -1,12 +1,12 @@
 const express = require('express');
-const users = require('../../mocks/data');
+const users = require('../mocks/users');
 
 const router = express.Router();
 
 // routes
 // home route
 router.get('/', (req, res) => {
-  return res.send('Hello from inside the serverless backend.');
+  return res.send('Hello from the inside...');
 });
 
 //  get all users
