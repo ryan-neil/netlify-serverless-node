@@ -2,7 +2,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4d7ff488-acb8-498f-ae6b-d3e4045d824a/deploy-status)](https://app.netlify.com/sites/ntl-serverless-example/deploys)
 
+This is a simple example application of how we can use **Netlify** serverless functions to build a backend REST API for our **Node** apps.
+
 Inspiration for this mini app came from [Phil Hawksworth's](https://www.netlify.com/blog/authors/phil-hawksworth/).
+
+Checkout the live site: https://netlify-serverless-node.netlify.app/
 
 ### Resources:
 
@@ -31,7 +35,3 @@ netlify dev
 ```
 
 _Netlify Dev_ will detect the serverless functions in your project, and automatically serve them for you in a local development server so that they behave just the same as when they are deployed to Netlify.
-
-<h1></h1>
-
-Checkout the [live example](https://ntl-serverless-example.netlify.app/) site!

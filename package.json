@@ -1,13 +1,19 @@
 {
   "name": "netlify-serverless-node",
-  "version": "1.1.0",
-  "description": "",
+  "version": "1.2.0",
+  "description": "Simple application demonstrating how we can use Netlify serverless functions with Node apps.",
+  "author": "Ryan Neil",
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "node",
+    "express",
+    "netlify",
+    "serverless-functions"
+  ],
   "scripts": {
     "server": "nodemon server/server-local"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
