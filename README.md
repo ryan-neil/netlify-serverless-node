@@ -1,4 +1,4 @@
-# Netlify Serverless Functions Example App
+# Netlify Serverless Functions: Node
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4d7ff488-acb8-498f-ae6b-d3e4045d824a/deploy-status)](https://app.netlify.com/sites/ntl-serverless-example/deploys)
 
